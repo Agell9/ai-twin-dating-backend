@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Import routes
-const compatibilityRoutes = require("./Routes-main/compatibility");
+const compatibilityRoutes = require("./routes/compatibility");
 const twinRoutes = require("./routes/twin");
 const userRoutes = require("./routes/user");
 const emotionalRoutes = require("./routes/emotional");
